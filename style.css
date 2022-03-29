@@ -19,7 +19,6 @@ header {
 .container-fluid {
   width: 80%;
   margin-top: 30px;
-  /* de scos margin-bottom */
   margin-bottom: 50px;
 }
 .navbar-brand {
@@ -36,24 +35,26 @@ header {
   padding: 6px 25px;
   border-radius: 30px;
 }
-
-/* nav .btn:active {
-  border: 0;
-} */
 nav .btn:hover {
   background-color: rgba(240, 248, 255, 0.267);
 }
-#navbarScrollingDropdown {
+.dropdown-toggle {
+  color: white;
+}
+.dropdown-toggle:hover {
+  color: white;
+}
+.navbarScrollingDropdown {
   color: hsl(0, 0%, 100%);
 }
-#navbarScrollingDropdown:hover {
+.navbarScrollingDropdown:hover {
   text-decoration: underline;
 }
 .header-text {
   text-align: center;
 }
 .header-text p,
-#navbarScrollingDropdown {
+.navbarScrollingDropdown {
   font-weight: 300;
 }
 .btn-bottom-header {
@@ -117,21 +118,16 @@ nav .btn:hover {
 .secnd-section {
   width: 100%;
   background-color: hsl(237, 17%, 21%);
-
-  /* background-image: url("images/illustration-phones.svg"),
-      url("images/bg-pattern-circles.svg"); */
   background-image: url("images/bg-pattern-circles.svg");
   background-repeat: no-repeat;
   margin-bottom: 50px;
   background-position: right 700px top 80%;
-
   height: 350px;
   border-radius: 0 100px;
 }
 .section {
   width: 50%;
   height: 350px;
-
   float: right;
   padding: 10px;
 }
@@ -197,9 +193,6 @@ nav .btn:hover {
   border-top-right-radius: 100px;
   padding-bottom: 80px;
 }
-/* .footer-table td a:hover {
-  text-decoration: underline;
-} */
 .footer-table {
   width: 100%;
   margin-top: 60px;
